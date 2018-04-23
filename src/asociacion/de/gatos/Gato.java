@@ -104,5 +104,9 @@ public class Gato {
         System.out.println(getNombre()+" ha fallecido");
     }
     
+    public void rasgar (){
+        System.out.println(getNombre()+ " aruño a alguien");
+    }
+    
     
 }
