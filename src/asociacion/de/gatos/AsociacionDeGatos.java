@@ -37,6 +37,7 @@ public class AsociacionDeGatos {
         System.out.println("            ¡GARDEN OF AVALON!");
         System.out.println("");
         System.out.println("¡¡¡"+gato1.nombre+" Ha revivido!!!");
+        gato2 =null;
         System.out.println("");
         System.out.println(gato1.nombre+": He revivido. ");
         gato3.maullar();
