@@ -47,6 +47,7 @@ public class AsociacionDeGatos {
         gato1.bailar();
         gato3.bailar();
         System.out.println("");
+        gato3.cantar();
         
         
     }
