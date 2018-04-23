@@ -108,5 +108,9 @@ public class Gato {
         System.out.println(getNombre()+ " aruño a alguien");
     }
     
+    public void trucoMagico (){
+        System.out.println("El gato "+getNombre()+" activa su noble phantas (o como se escriba :v) ");
+    }
+    
     
 }

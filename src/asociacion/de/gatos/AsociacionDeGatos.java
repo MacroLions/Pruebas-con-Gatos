@@ -28,10 +28,12 @@ public class AsociacionDeGatos {
         gato1.rasgar();
         System.out.println("Por eso "+ gato1.getNombre()+ " murio para pasar a ser el " + gato2.getNombre());
         Gato gato3 = new Gato("Merlín");
+        gato3.trucoMagico();
         System.out.println("");
         System.out.println(gato3.getNombre()+": TSUMINAKI MONONGAMI TORUGA I...");
         System.out.println("            ¡GARDEN OF AVALON!");
         System.out.println("");
+        
     }
     
 }
