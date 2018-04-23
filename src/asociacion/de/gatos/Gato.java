@@ -109,7 +109,11 @@ public class Gato {
     }
     
     public void trucoMagico (){
-        System.out.println("El gato "+getNombre()+" activa su noble phantas (o como se escriba :v) ");
+        System.out.println("El gato "+getNombre()+" activa su Noble Phantasm!");
+    }
+    
+    public void bailar(){
+        System.out.println("El gato "+getNombre()+" ha bailado.");
     }
     
     

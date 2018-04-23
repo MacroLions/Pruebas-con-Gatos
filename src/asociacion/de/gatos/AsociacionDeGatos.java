@@ -19,6 +19,7 @@ public class AsociacionDeGatos {
         Gato gato1 = new Gato("Jerry");
         Gato gato2 = new Gato("Alma de Jerry","exotico",2,"gris","rojo SATANICO","mediano");
         System.out.println("La ID de "+gato1.getNombre()+ " es " + gato1.getID());
+        System.out.println("");
         gato1.maullar();
         gato1.morir();
         System.out.println("");
@@ -27,12 +28,25 @@ public class AsociacionDeGatos {
         System.out.println("");
         gato1.rasgar();
         System.out.println("Por eso "+ gato1.getNombre()+ " murio para pasar a ser el " + gato2.getNombre());
+        System.out.println("");
         Gato gato3 = new Gato("Merlín");
+        System.out.println("La ID de "+gato3.getNombre()+ " es " + gato3.getID());
         gato3.trucoMagico();
         System.out.println("");
         System.out.println(gato3.getNombre()+": TSUMINAKI MONONGAMI TORUGA I...");
         System.out.println("            ¡GARDEN OF AVALON!");
         System.out.println("");
+        System.out.println("¡¡¡"+gato1.nombre+" Ha revivido!!!");
+        gato2=null;
+        System.out.println("");
+        System.out.println(gato1.nombre+": He revivido. ");
+        gato3.maullar();
+        System.out.println(gato3.nombre+": Ha sido un placer joven gato "+gato1.nombre+"~");
+        System.out.println("");
+        gato1.bailar();
+        gato3.bailar();
+        
+        
         
     }
     
