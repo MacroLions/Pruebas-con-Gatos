@@ -116,5 +116,9 @@ public class Gato {
         System.out.println("El gato "+getNombre()+" ha bailado.");
     }
     
+    public void ponerMusica(){
+        System.out.println("El gato "+ getNombre()+ " puso musica");
+    }
+    
     
 }

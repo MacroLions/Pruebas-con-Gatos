@@ -42,6 +42,8 @@ public class AsociacionDeGatos {
         gato3.maullar();
         System.out.println(gato3.nombre+": Ha sido un placer joven gato "+gato1.nombre+"~");
         System.out.println("");
+        gato3.ponerMusica();
+        System.out.println("");
         gato1.bailar();
         gato3.bailar();
         System.out.println("");
