@@ -24,8 +24,14 @@ public class AsociacionDeGatos {
         System.out.println("");
         gato2.maullar();
         System.out.println(gato2.getNombre()+": Era "+gato1.getNombre()+" mi raza era "+gato2.getRaza()+" mis ojos ahora son "+gato2.getColorOjos());
+        System.out.println("");
         gato1.rasgar();
         System.out.println("Por eso "+ gato1.getNombre()+ " murio para pasar a ser el " + gato2.getNombre());
+        Gato gato3 = new Gato("Merlín");
+        System.out.println("");
+        System.out.println(gato3.getNombre()+": TSUMINAKI MONONGAMI TORUGA I...");
+        System.out.println("            ¡GARDEN OF AVALON!");
+        System.out.println("");
     }
     
 }
