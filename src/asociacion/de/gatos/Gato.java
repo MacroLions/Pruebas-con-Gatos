@@ -117,10 +117,14 @@ public class Gato {
     }
     
     public void ponerMusica(){
-        System.out.println("El gato "+ getNombre()+ " puso musica");
+        System.out.println("El gato "+ getNombre()+ " puso música");
     }
     
     public void cantar(){
-        System.out.println("El gato "+ getNombre()+ " comenzo a cantar");
+        System.out.println("El gato "+ getNombre()+ " comenzó a cantar");
+    }
+    
+    public void observar(){
+        System.out.println("El gato "+ getNombre()+ " observó.");
     }
 }
